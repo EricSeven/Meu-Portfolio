@@ -364,6 +364,10 @@ abbr{
     .inline >.conteiner {
         font-size: 0.74em;
     }
+
+    .me p{
+        font-size:0.80em;
+    }
 }
 
 @media (max-width:361px){
