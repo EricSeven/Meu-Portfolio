@@ -368,6 +368,10 @@ abbr{
     .me p{
         font-size:0.80em;
     }
+
+    #about {
+        min-height:100vh;
+    }
 }
 
 @media (max-width:361px){
