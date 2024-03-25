@@ -228,6 +228,119 @@ abbr{
 /*about*/
 #about{
     background-color: var(--black);
-    color: rgb(89, 88, 86);
-    color: rgb(166, 3, 3);
+    height: 496px;
+}
+
+.textme{
+    min-height: 496px;
+}
+
+.inline{
+    padding: 20px;
+}
+.inline img{
+    display: block;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+.inline a{
+    width: 40px;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about >.centralizer >.textme >.me >.inline >p{
+    text-align: center;
+}
+
+.acess, .information{
+    display: inline;
+}
+.me p{
+    font-size: 1.2em;
+}
+
+/*responsividade about*/
+
+@media (max-width:900px){
+    
+    #about{
+        min-height: 100vh;
+    }
+    .centralizer{
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .inline{
+        display: block;
+    }
+
+    .me p{
+        font-size: 1.01em;
+        text-align: justify;    
+    }
+
+    #about >.centralizer >.textme >.me >.inline >p{
+        text-align: center;
+    }
+}
+
+@media (max-width:550px){
+    .me p{
+        font-size: 0.9em;
+    }
+
+    .centralizer{
+        padding: 0px 70px 0px 70px;
+    }
+
+    .textme>h2{
+        padding: 1rem 0px;
+    }
+}
+
+@media (max-width:426px){
+    .me p{
+        font-size: 0.77em;
+    }
+
+    #about {
+        min-height: 85vh;
+    }
+
+    #about h2{
+        font-size: 1.5em;
+    }
+
+    .inline img{
+        width: 25px;
+    }
+
+    .inline{
+        display: inline;
+    }
+}
+
+@media (max-width:367px){
+    .inline >.conteiner {
+        font-size: 0.74em;
+    }
+}
+
+@media (max-width:361px){
+    .me p{
+        line-height: normal;
+    }
+    .inline >.conteiner{
+        font-size: 0.69em;
+    }
+    .inline img{
+        width: 23px;
+    }
 }
