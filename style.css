@@ -369,7 +369,7 @@ abbr{
 @media (max-width:426px){
 
     .me p{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     #about h2{
@@ -388,6 +388,9 @@ abbr{
 @media (max-width:403px){
     .inline >.conteiner{
         font-size: 0.77em;
+    }
+    .me p{
+        font-size:1em;
     }
 }
 
