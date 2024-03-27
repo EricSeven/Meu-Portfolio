@@ -399,7 +399,7 @@ abbr{
 
 @media (max-width:372px){
     .me p{
-        font-size: 0.85em;
+        font-size: 1em;
     }
     .inline >.conteiner{
         font-size: 0.75em;
