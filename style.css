@@ -191,6 +191,7 @@ main{
 .wordstart h1{
     font-family: 'mines', 'Saira', Arial, Helvetica, sans-serif;
     font-size: 3em;
+    margin-bottom: -50px;
 }
 
 .wordstart p{
