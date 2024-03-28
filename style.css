@@ -317,6 +317,24 @@ abbr{
     }
 }
 
+@media (max-width:450px){
+    .inline img{
+        width: 30px;
+    }
+}
+
+@media (max-width:438px){
+    .pdf p{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:415px){
+    #about >.centralizer{
+        padding: 0px 40px;
+    }
+}
+
 /*responsividade centralizer*/
 
 @media (max-width:900px){
