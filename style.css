@@ -277,6 +277,10 @@ abbr{
     .wordstart p,h1{
         text-align: center;
     }
+
+    .wordstart p{
+        margin-top: -60px;
+    }
 }
 
 /*about*/
