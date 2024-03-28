@@ -279,6 +279,10 @@ abbr{
         text-align: center;
     }
 }
+@media (max-width:450px){
+    .wordstart p{
+        margin-top: -2rem;
+    }
 
 /*about*/
 
