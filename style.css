@@ -329,12 +329,6 @@ abbr{
     }
 }
 
-@media (max-width:415px){
-    .centralizer{
-        padding: 0px 40px;
-    }
-}
-
 /*responsividade centralizer*/
 
 @media (max-width:900px){
@@ -348,6 +342,12 @@ abbr{
 @media (max-width:550px){
     .centralizer {
         padding: 0px 70px 0px 70px;
+    }
+}
+
+@media (max-width:415px){
+    .centralizer{
+        padding: 0px 40px;
     }
 }
 
