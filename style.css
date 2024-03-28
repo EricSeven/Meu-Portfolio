@@ -330,7 +330,7 @@ abbr{
 }
 
 @media (max-width:415px){
-    #about >.centralizer{
+    .centralizer{
         padding: 0px 40px;
     }
 }
