@@ -191,7 +191,6 @@ main{
 .wordstart h1{
     font-family: 'mines', 'Saira', Arial, Helvetica, sans-serif;
     font-size: 3em;
-    margin-bottom: -50px;
 }
 
 .wordstart p{
@@ -200,6 +199,7 @@ main{
     font-size: 2em;
     color: var(--red);
     text-shadow: 0px 0px 10px var(--red);
+    margin-top:-3rem;
     /*animation*/
     width: 100%;
     white-space: nowrap;
