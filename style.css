@@ -451,7 +451,8 @@ picture{
     display: flex;
     padding: 0 35px;
     align-items: center;
-    justify-content: center;
+    justify-content: center;
+    padding-bottom: 15px;
 }
 
 #certific >.centralizer >h3{
