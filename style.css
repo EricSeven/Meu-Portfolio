@@ -549,13 +549,30 @@ flex-direction: column;
       grid-auto-columns: calc((100% / 2) - 9px);
     }
   }
+
+  @media (max-width:960px){
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+      }
+    .carousel{
+        width: 300px;
+    }
+
+    #certific >.centralizer{
+        padding: 0px;
+        margin: 0px;
+    }
+  }
   
   @media screen and (max-width: 600px) {
     .wrapper .carousel {
         grid-auto-columns: 100%;
-
       }
     .carousel{
         width: 300px;
+    }
+
+    #certific >.centralizer{
+        padding: 0px;
     }
   }
