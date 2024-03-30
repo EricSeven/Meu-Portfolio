@@ -552,9 +552,14 @@ flex-direction: column;
   
   @media screen and (max-width: 600px) {
     .wrapper .carousel {
-        grid-auto-columns: 100%;
+        grid-auto-columns: 100%;
+
       }
     .carousel{
         width: 300px;
+    }
+
+    .centralizer{
+        padding:0px;
     }
   }
