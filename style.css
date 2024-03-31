@@ -114,6 +114,20 @@ header{
     transition: 0.5s;
 }
 
+.logo h1{
+    font-weight: 550;
+}
+
+.logo h1::after{
+    content: '*/';
+    color: var(--red);
+}
+
+.logo h1::before{
+    content: '/*';
+    color: var(--red);
+}
+
 /*responsividade header*/
 @media (max-width:700px){
     header{
