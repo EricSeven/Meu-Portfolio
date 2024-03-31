@@ -277,7 +277,7 @@ abbr{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:490px){
     .wordstart p{
         margin-top: -0.7rem;
     }
